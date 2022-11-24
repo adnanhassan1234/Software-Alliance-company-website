@@ -1,0 +1,33 @@
+.banner{
+  position: relative;
+  overflow: hidden;
+
+  .col{
+    padding: 0 15px;
+    max-width: 50%;
+
+    @media screen and (max-width: 767px) {
+      max-width: 100%;
+    }
+  }
+
+  .textBox{
+    padding: 50px 0;
+  }
+
+  .imgBox{
+    padding: 90px;
+  }
+
+}
+
+.tick img{
+  width: 22px !important;
+  height: 22px !important;
+  // border-radius: 50%;
+}
+
+.our_portfolio{
+  background-color: #EEEEEE !important;
+}
+

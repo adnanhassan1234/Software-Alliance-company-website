@@ -1,0 +1,23 @@
+#footer{
+  position: relative;
+  overflow: hidden;
+}
+
+.quickLink{
+  position: relative;
+
+  li{
+    margin: 0 0 10px;
+
+    a{
+
+      &:hover{
+        opacity: 0.75;
+      }
+    }
+  }
+}
+
+.copyRight{
+  border-top: 1px solid rgba(255,255,255,0.1);
+}

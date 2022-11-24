@@ -1,0 +1,28 @@
+
+.sectionHeader{
+  position: relative;
+  text-align: center;
+  padding: 100px 0;
+
+  h1{
+    position: relative;
+    display: block;
+    z-index: 1;
+    text-transform: capitalize;
+
+    &:after{
+      content: attr(data-title);
+      color: rgba(255,255,255,1);
+      font-size: 200%;
+      text-shadow: -1px 0 rgba(192, 45, 78, 0.3),
+      0 1px rgba(192, 45, 78, 0.3),
+      1px 0 rgba(192, 45, 78, 0.3),
+      0 -1px rgba(192, 45, 78, 0.3);
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translateX(-50%) translateY(-50%);
+      z-index: -1;
+    }
+  }
+}

@@ -1,0 +1,21 @@
+.banner{
+  position: relative;
+  overflow: hidden;
+
+  .col{
+    padding: 0 15px;
+    max-width: 50%;
+
+    @media screen and (max-width: 767px) {
+      max-width: 100%;
+    }
+  }
+
+  .textBox{
+    padding: 50px 0;
+  }
+
+  .imgBox{
+    padding: 0 0 0 50px;
+  }
+}

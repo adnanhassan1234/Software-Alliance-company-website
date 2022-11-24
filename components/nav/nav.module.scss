@@ -1,0 +1,29 @@
+
+.nav{
+  position: relative;
+  margin: 0 450px 0 180px;
+  padding: 8px 0;
+
+  ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    li{
+      padding: 10px;
+      position: relative;
+
+      a{
+        display: block;
+      }
+
+      ul{
+        width: 250px;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        background: #ffff;
+      }
+    }
+  }
+}

@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import "base/mixins";
+@import "base/variable";
+@import "base/slick";
+
+
+body{
+  font-size: 14px;
+  line-height: 20px;
+  font-family: $mont;
+}
+
+#wrapper{
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
+
+[class*="container"]{
+  margin: 0 auto;
+  max-width: 1250px !important;
+  padding: 0 15px;
+
+  &:after{
+    content: '';
+    clear: both;
+    display: block;
+  }
+}
+
+.shadow{
+  box-shadow: 0 0 15px -5px rgba(0,0,0,0.3) !important;
+}
+
+
+.btn-light{
+  background: rgba(192, 45, 78, 0.1);
+}
+
+.portfolio-tabs {
+margin-bottom: 23px;
+}
+
+.color_red{
+  color: #3AAFE9;
+}
+.border_button{
+  border: 1px solid #3AAFE9 !important;
+  background-color: #F3F4F6 !important;
+}
+.border_button:hover{
+  border: 1px solid #3AAFE9 !important;
+  background-color: #e8e9eb  !important;
+}
+
+.tabs_mul{
+  display: flex;
+  // align-items: flex-end;
+  // flex-wrap: wrap;
+  color: black;
+}
+.tabs_col{
+  flex-direction: column !important;
+}
+.tabs_width{
+  width: 200px !important;
+}
+
+@media only screen and (max-width: 867px) {
+  .tabs_mul{
+    display: flex;
+    align-items: flex-end !important;
+    flex-wrap: wrap !important;
+    color: black;
+  }
+  .tabs_col{
+    flex-direction: row !important;
+  }
+  .tabs_width{
+    width: auto !important;
+  }
+}
+
+.alignment{
+  display: inline-block;
+  vertical-align: sub;
+}
+
+.padding_p{
+  min-height: 80px;
+}

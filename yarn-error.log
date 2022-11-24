@@ -1,0 +1,50 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\DELL\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add @material-tailwind/html
+
+PATH: 
+  C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;%NVM_HOME%;%NVM_SYMLINK%;C:\Program Files\nodejs\;C:\Users\DELL\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\DELL\AppData\Local\Programs\Python\Python310\;C:\Users\DELL\AppData\Local\Microsoft\WindowsApps;C:\Users\DELL\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\DELL\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\DELL\AppData\Roaming\npm;C:\Program Files (x86)\Brackets\;
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.12.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, copyfile 'C:\Users\DELL\AppData\Local\Yarn\Cache\v6\npm-prop-types-15.8.1-67d87bf1a694f48435cf332c24af10214a3140b5-integrity\node_modules\prop-types\package.json' -> 'D:\Sareact\node_modules\prop-types\package.json'
+
+npm manifest: 
+  {
+    "private": true,
+    "scripts": {
+      "dev": "next dev",
+      "build": "next build",
+      "start": "next start"
+    },
+    "dependencies": {
+      "@fortawesome/fontawesome-svg-core": "^6.2.0",
+      "@fortawesome/free-solid-svg-icons": "^6.2.0",
+      "@fortawesome/react-fontawesome": "^0.2.0",
+      "@material-tailwind/html": "^1.2.3",
+      "@material-ui/core": "^4.12.4",
+      "next": "latest",
+      "react": "17.0.2",
+      "react-dom": "17.0.2",
+      "react-slick": "^0.29.0",
+      "sass": "^1.55.0"
+    },
+    "devDependencies": {
+      "autoprefixer": "^10.4.12",
+      "postcss": "^8.4.18",
+      "tailwindcss": "^3.1.8"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
